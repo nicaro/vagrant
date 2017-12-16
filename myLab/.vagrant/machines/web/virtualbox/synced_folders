@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/share":{"guestpath":"/home/vagrant/share","hostpath":"/home/nicolas/src/hands-on-ansible/myLab/share","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/nicolas/src/hands-on-ansible/myLab","disabled":false,"__vagrantfile":true}}}
