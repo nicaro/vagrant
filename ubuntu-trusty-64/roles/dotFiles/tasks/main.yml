@@ -1,0 +1,17 @@
+---
+- name: Add tmux configs
+  copy:
+    src: '.tmux.conf'
+    dest: /home/vagrant/.tmux.conf
+- name: Add bashrc
+  copy:
+    src: '.bashrc'
+    dest: /home/vagrant/.bashrc
+- name: Add gitconfig
+  copy:
+    src: '.gitconfig'
+    dest: /home/vagrant/.gitconfig
+- name: Install tmux
+  apt:
+    name: tmux
+    state: latest
